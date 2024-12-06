@@ -16,19 +16,19 @@
     <main>
         <img src="img/bag.png" alt="Sacola de compras">
         <form>
-            <input id="input-item" type="text" placeholder="Digite o item que deseja">
-            <button id="adicionar-botao"> Salvar Item</button>
+            <input id="input-item" id="intput-item" type="text" placeholder="Digite o item que deseja">
+            <button class="adicionar-botao" id="adicionar-item"> Salvar Item</button>
         </form>
-        <ul>
+        <ul id="lista-de-compras">
             <h2>Lista de compras</h2>
             <hr />
 
             <li>
                 <div class="item-lista-container">
                     <div class="container-nome-compra">
-                        <div class="checkbox-container">
+                        <div class="container-checkbox">
                             <label for="checkbox-1">
-                                <input type="checkbox" class="checkbox-input" id="checkbox-1" />
+                                <input type="checkbox" class="input-checkbox" id="checkbox-1" />
                                 <div class="checkbox-customizado checked"></div>
                             </label>
                         </div>
@@ -48,7 +48,7 @@
             </li>
         </ul>
     </main>
-
+    <script src="scripts.js"></script>
 </body>
 
 </html>
